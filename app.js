@@ -21,5 +21,5 @@ HTTP SERVER OLUŞTURULDU
 
 */
 http.createServer(app).listen(app.get('port'), function(){
-	console.log('Running on Port ' + app.get('port') + '. Updated.';
+	console.log('Running on Port ' + app.get('port') + '. Updated v2.';
 });
